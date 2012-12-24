@@ -1,9 +1,14 @@
-object TestApp extends App {
-	println("Hello, Scala")
-	println(abs(-100))
+object TestApp {
 	
 	def abs(x: Int) : Int = {
 	  if (x >=0) x else -x
+	}
+	
+	def main(args: Array[String]) {
+	
+	  println("Hello, Scala")
+	  println(abs(-100))
+	  
 	}
 	
 }
